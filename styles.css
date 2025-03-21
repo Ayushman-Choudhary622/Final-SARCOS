@@ -4,15 +4,6 @@ body {
     background: #000;
 }
 
-.eyes {
-    animation: twinkle 2s infinite;
-}
-
-@keyframes twinkle {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-}
-
 .mode-btn {
     cursor: pointer;
     animation: pulse 1s infinite;
